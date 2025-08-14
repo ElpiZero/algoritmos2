@@ -230,6 +230,8 @@ def reB_node(T, node):
 
 #Funcion reBalance para un arbol
 def reBalance(T):
+    #Actualizamos los bf del arbol y de ser necesario hacemos rotaciones    
+    calculateBalance(T)
     reB_node(T, T.root)
     return
 
