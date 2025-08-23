@@ -245,23 +245,6 @@ def updateBf(T,node):
         updateBf(T,node.parent)
     return
 
-# #Recorremos el bt en pre orden -> raiz al principio
-# def traverseInPreOrder(B):
-#     if B.root is None:
-#         return None
-
-#     R = []
-#     def tiPreO_r(node):
-#         if node is None:
-#             return None
-#         R.append(node.key)
-#         print(node.key , node.bf)
-#         tiPreO_r(node.leftnode)
-#         tiPreO_r(node.rightnode)  
-#         return True
-       
-#     tiPreO_r(B.root)
-#     return R
 
 
 A = AVLTree()
